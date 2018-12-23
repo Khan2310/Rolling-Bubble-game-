@@ -12,9 +12,3 @@ var g_resources = [];
 for (var i in res) {
   g_resources.push(res[i]);
 }
-
-// var backgroundSprite = cc.Sprite.create(res.whiteBricksBackground_png);
-// backgroundSprite.setScaleX(0.8);
-// backgroundSprite.setScaleY(0.5);
-// backgroundSprite.setPosition(cc.p(size.width / 2, size.height / 2));
-// this.addChild(backgroundSprite);

@@ -176,7 +176,7 @@ var game = cc.Layer.extend({
         // console.log(space);
         //space.removeFromParent(arbiter.a);
         space.removeShape(arbiter.a); ////////////////////removing shape
-        arbiter.a.image.visible = true; //////////////image visibility
+        arbiter.a.image.visible = false; //////////////image visibility
       });
     }
 
@@ -211,18 +211,6 @@ var game = cc.Layer.extend({
     this.addChild(scoreNum);
   }
 });
-// var touchListener = cc.EventListener.create({
-//   event: cc.EventListener.TOUCH_ONE_BY_ONE,
-//   onTouchBegan: function(touch, event) {
-//     if (setClick == true) {
-//       for (var i = 0; i < shapeArray.length; i++) {
-//         if (shapeArray[i].name == "destroyable") {
-//           setClick = true;
-//         }
-//       }
-//     }
-//   }
-// });
 
 var gameScene = cc.Scene.extend({
   onEnter: function() {
